@@ -7,10 +7,11 @@ If you navigate to `http://www.google.com/`, dotjs will execute `~/.js/google.co
 You can find more informations on [defunkt's dotjs repository](https://github.com/defunkt/dotjs).
 
 
-## This repository
+## About this repository
 
-You will find here some scripts I've created for my own needs. Feel free to use  them if you need :)
-My scripts have all been successfully tested on FF 5.0.1 / Mac OS.
+You will find here some scripts I've created for my own needs. Feel free to use them if you need :)
+
+My scripts have been successfully tested on FF 5.0.1 / Mac OS.
 
 
 ## Browsers extensions
