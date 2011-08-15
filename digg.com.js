@@ -1,0 +1,1 @@
+$('.story-item-title a.external-link').removeAttr('target');
