@@ -1,0 +1,1 @@
+$('.post-item a.h4').removeAttr('target');
