@@ -41,6 +41,7 @@ function modifyUserpage() {
 }
 
 function modifyLanguagesPage() {
+  /* Display languages list under popular one */
   $('#main:not(.subnavd) #languages .left').removeClass('left').children().attr('width', '99%');
   $('#main:not(.subnavd) #languages .all_languages')
     .remove().appendTo('#languages .popular').css({
@@ -56,6 +57,11 @@ function modifyLanguagesPage() {
       'padding-left': 0
     })
     .parent().children().first().css('display', 'block');
+  
+  /* Display "Recently created / updated" blocks on top */ 
+  var recentlyCreated = $('#languages .site .left.row').last().remove();
+  var recentlyUpdated = $('#languages .site .left').last().remove();
+  $('#languages .site').prepend(recentlyCreated, recentlyUpdated);
 }
 
 function modiySearchForm() {
