@@ -41,8 +41,8 @@ function modifyUserpage() {
 }
 
 function modifyLanguagesPage() {
-  $('#languages .left').removeClass('left').children().attr('width', '99%');
-  $('#languages .all_languages')
+  $('#main:not(.subnavd) #languages .left').removeClass('left').children().attr('width', '99%');
+  $('#main:not(.subnavd) #languages .all_languages')
     .remove().appendTo('#languages .popular').css({
       'text-align': 'left',
       'padding-right': 0,
