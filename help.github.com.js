@@ -1,3 +1,8 @@
+/*
+ * Created by NumEricR - 16-08-2011
+ * Successfully tested on FF 5.0.1 / Mac OS
+ */
+
 function modifyHeadings() {
   $('body.documentation h1').hide();
   $('#js-sidebar').css('margin-top', 0);

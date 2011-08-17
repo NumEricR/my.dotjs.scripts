@@ -1,5 +1,5 @@
 /* 
- * Adapted by NumEricR - 16-08-2011
+ * Adapted by NumEricR - 15-08-2011
  * Successfully tested on FF 5.0.1 / Mac OS
  */
 

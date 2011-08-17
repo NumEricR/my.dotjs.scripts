@@ -1,3 +1,9 @@
+/*
+ * Created by NumEricR - 16-08-2011
+ * Successfully tested on FF 5.0.1 / Mac OS
+ */
+
+
 /* ====== Website ====== */
 
 function modifyHeader() {
