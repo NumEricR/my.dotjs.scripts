@@ -43,7 +43,7 @@ function modifyUserpage() {
 function modifyLanguagesPage() {
   /* Display languages list under popular one */
   $('#main:not(.subnavd) #languages .left').removeClass('left').children().attr('width', '99%');
-  $('#main:not(.subnavd) #languages .all_languages')
+  $('#languages .all_languages')
     .remove().appendTo('#languages .popular').css({
       'text-align': 'left',
       'padding-right': 0,
@@ -57,6 +57,14 @@ function modifyLanguagesPage() {
       'padding-left': 0
     })
     .parent().children().first().css('display', 'block');
+  
+  /* Increase width of list blocks on language pages */
+  $('#languages .site .left:not(.row)').css({
+    'border-left': '1px solid #ddd',
+    'margin': '0 0 2em 3em',
+    'padding': '0 0 1em 4em'
+  })
+  $('#languages .site .left').css('width', '30em');
   
   /* Display "Recently created / updated" blocks on top */ 
   var recentlyCreated = $('#languages .site .left.row').last().remove();
