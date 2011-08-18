@@ -24,15 +24,27 @@ function modifyDashboard() {
   /* Remove feed links */
   $('.dashboard .actions').hide();
 
-  /* Remove "Hi" message but show tip information if available */
-  var tip = $('.dashboard .avatared span').html();
+  /* Restore the organization selector's position (cf http://bit.ly/rfaR9n) */
+  var tip = $('.dashboard .tip').html(),
+      topSwitcher;
+  
   if (tip && tip.length > 0) {
-  	$('.dashboard .avatared').empty().html('<span>' + tip + '</span>');
+    topSwitcher = 35;
   }
   else {
-  	$('.dashboard .avatared').empty().css('display', 'none');
-  	$('.dashboard').css('padding-top', '10px');
+    topSwitcher = 5;
+    $('.pagehead.dashboard .tabs').css('margin-top', 0);
   }
+  
+  $('.minibutton.switcher.account-switcher').css({
+    'float': 'right',
+    'margin': topSwitcher + 'px 5px 0 0',
+    'z-index': '10'
+  });
+  $('.pagehead.dashboard .context-pane').css({
+    'margin-top': '-30px',
+    'width': '290px'
+  });
 }
 
 function modifyUserpage() {
