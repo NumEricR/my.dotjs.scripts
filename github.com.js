@@ -26,13 +26,15 @@ function modifyDashboard() {
 
   /* Restore the organization selector's position (cf http://bit.ly/rfaR9n) */
   var tip = $('.dashboard .tip').html(),
-      topSwitcher;
+      topSwitcher, topSwitcherPane;
   
   if (tip && tip.length > 0) {
     topSwitcher = 35;
+    topSwitcherPane = -30;
   }
   else {
     topSwitcher = 5;
+    topSwitcherPane = 0;
     $('.pagehead.dashboard .tabs').css('margin-top', 0);
   }
   
@@ -42,7 +44,7 @@ function modifyDashboard() {
     'z-index': '10'
   });
   $('.pagehead.dashboard .context-pane').css({
-    'margin-top': '-30px',
+    'margin-top': topSwitcherPane + 'px',
     'width': '290px'
   });
 }
