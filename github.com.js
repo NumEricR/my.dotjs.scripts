@@ -49,7 +49,21 @@ function modifyDashboard() {
   });
 }
 
-function modifyUserpage() {
+function modifyRepoPage() {
+  /* Fix design issue with "Clone in Mac" button when there is no repository description */
+  $('#repo_details.has-downloads-no-desc #download_button').css({
+    'padding-top': '8px',
+    'padding-bottom': '8px'
+  });
+  $('#repo_details.has-downloads-no-desc .btn-clone-in-mac').css({
+    'margin-top': '-8px',
+    'margin-right': '10px',
+    'padding-top': '5px',
+    'padding-bottom': '5px'
+  });
+}
+
+function modifyUserPage() {
   /* Hide "This is you!" */
   $('.userpage.mine .actions .text').hide();
 }
@@ -130,7 +144,8 @@ function modifyWebsite() {
   modifyHeader();
   modifyHeadings();
   modifyDashboard();
-  modifyUserpage();
+  modifyRepoPage();
+  modifyUserPage();
   modifyLanguagesPage();
   modiySearchForm();
   modifyIssuesPage();
