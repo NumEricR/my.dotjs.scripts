@@ -45,6 +45,7 @@ function modifyDashboard() {
   });
   $('.pagehead.dashboard .context-pane').css({
     'margin-top': topSwitcherPane + 'px',
+    'margin-left': '-164px',
     'width': '290px'
   });
 }
