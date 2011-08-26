@@ -1,0 +1,1 @@
+$('head').append('<style>#divTabs ul li img.actions-tab-options {margin-left: 8px}</style');
