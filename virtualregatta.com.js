@@ -1,4 +1,4 @@
-$('#VRadvertisingSky, #VRseparateurLeft, #VRseparateurLeft + div').css('display', 'none');
+$('#VRadvertisingSky, #VRseparateurLeft, #VRseparateurLeft + div').hide();
 
-var sidesWidth = (window.innerWidth - $('#VRcontent').width()) / 2 -10;
-$('#VRbgTopLeft, #VRbgTopRight, #VRbottomLeftBg, #VRbottomRightBg, #VRbottomLeft, #VRbottomRight').css('width', sidesWidth+'px');
+var sidesWidth = (window.innerWidth - 1038) / 2;
+$('#VRbgTopLeft, #VRbgTopRight, #VRbottomLeftBg, #VRbottomRightBg, #VRbottomLeft, #VRbottomRight').width(sidesWidth);
