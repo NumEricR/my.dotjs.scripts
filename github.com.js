@@ -125,7 +125,7 @@ function modifyFooter() {
 
   /* Footer */
   $('#blacktocat, .sponsor .logo, .sponsor br').hide();
-  $('#legal ul').appendTo('.upper_footer .site').addClass('footer_nav').prepend('<h4>Legal</h4>');
+  $('#legal ul').appendTo('.upper_footer .container').addClass('footer_nav').prepend('<h4>Legal</h4>');
   $('#legal').css({
     'background': 'none',
     'height': '30px',
