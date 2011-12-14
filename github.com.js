@@ -6,17 +6,12 @@
 
 /* ====== Website ====== */
 
-function modifyHeader() {
-  $('#header .avatarname a:first-child').hide();
-}
-
 function modifyHeadings() {
   var titles = ['Explore GitHub', 'Interesting Repositories', 'Top Languages',
                 'Public Timeline Feed', 'Search'];
   var h1 = $('h1');
   if ($.inArray(h1.text(), titles) != -1) {
     h1.hide();
-    $('.pagehead').css('padding-top', '10px');
   }
 }
 
@@ -142,7 +137,6 @@ function modifyFooter() {
 }
 
 function modifyWebsite() {
-  modifyHeader();
   modifyHeadings();
   modifyDashboard();
   modifyRepoPage();
