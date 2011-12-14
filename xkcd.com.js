@@ -3,7 +3,7 @@
  * Successfully tested on FF 5+ & 6 / Mac OS
  */
 
-var comic = $('div.s img[title]');
+var comic = $('#middleContent .s img[title]');
 $('<p></p>').text(comic.attr('title')).insertAfter(comic).css({
   'background-color': '#ffc',
   'border': '1px solid yellow',
