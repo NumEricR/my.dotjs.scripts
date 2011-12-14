@@ -6,6 +6,14 @@
 
 /* ====== Website ====== */
 
+function modifyHeader() {
+  /* Hide gravatar icon */
+  $('#userbox a img').hide();
+  
+  /* Replace profil link */
+  $('#userbox .name').text('Profil');
+}
+
 function modifyHeadings() {
   var titles = ['Explore GitHub', 'Interesting Repositories', 'Top Languages',
                 'Public Timeline Feed', 'Search'];
@@ -125,6 +133,7 @@ function modifyFooter() {
 }
 
 function modifyWebsite() {
+  modifyHeader();
   modifyHeadings();
   modifyDashboard();
   modifyUserPage();
