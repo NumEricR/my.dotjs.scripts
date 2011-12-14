@@ -1,6 +1,6 @@
 /*
  * Created by NumEricR - 16-08-2011
- * Successfully tested on FF 5+ & 6 / Mac OS
+ * Successfully tested on FF 8 / Mac OS
  */
 
 
