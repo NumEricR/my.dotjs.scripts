@@ -1,6 +1,6 @@
 /* 
  * Adapted by NumEricR - 15-08-2011
- * Successfully tested on FF 5+ & 6 / Mac OS
+ * Successfully tested on FF 8 / Mac OS
  */
 
 var comic = $('#middleContent .s img[title]');
