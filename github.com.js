@@ -60,7 +60,7 @@ function modifyDashboard() {
 
 function modifyUserPage() {
   /* Hide "This is you!" */
-  $('.userpage.mine .actions .text').hide();
+  $('.page-profile.mine .pagehead-actions .text').hide();
 }
 
 function modifyLanguagesPage() {
