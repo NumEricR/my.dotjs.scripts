@@ -8,7 +8,10 @@
 
 function modifyHeader() {
   /* Remove vertical border */
-  $('.topsearch').css({'border': 0, 'box-shadow': 'none'});
+  $('.topsearch').css({
+    'border': 0,
+    'box-shadow': 'none'
+  });
   
   /* Hide gravatar icon */
   $('#userbox a img').hide();
@@ -40,7 +43,11 @@ function modifyLanguagesPage() {
   /* Display languages list under popular one */
   $('#languages .left').css('width', 'auto').children().attr('width', '300');
   $('#languages .all_languages').remove().appendTo('#languages .popular');
-  $('#languages .left + .all_languages').css({'width': 580, 'float': 'right', 'padding-right': 0});
+  $('#languages .left + .all_languages').css({
+    'width': 580,
+    'float': 'right',
+    'padding-right': 0
+  });
   $('#languages .all_languages .right')
     .removeClass('right')
     .css('text-align', 'justify')
