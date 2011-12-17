@@ -65,21 +65,18 @@ function modifyUserPage() {
 
 function modifyLanguagesPage() {
   /* Display languages list under popular one */
-  $('#main:not(.subnavd) #languages .left').removeClass('left').children().attr('width', '99%');
-  $('#languages .all_languages')
-    .remove().appendTo('#languages .popular').css({
-      'text-align': 'left',
-      'padding-right': 0,
-      'margin-top': '20px'
-    })
-    .children().removeClass('right')
-    .children().css('text-align', 'justify')
-    .children().css({
+  $('#languages .left').css('width', 'auto').children().attr('width', '300');
+  $('#languages .all_languages').remove().appendTo('#languages .popular');
+  $('#languages .left + .all_languages').css({'width': 580, 'float': 'right', 'padding-right': 0});
+  $('#languages .all_languages .right')
+    .removeClass('right')
+    .css('text-align', 'justify')
+    .children().children('li').css({
       'display': 'inline',
       'padding-right': '1.6em',
       'padding-left': 0
     })
-    .parent().children().first().css('display', 'block');
+    .parent().children().first().hide();
   
   /* Increase width of list blocks on language pages */
   $('#languages .site .left:not(.row)').css({
