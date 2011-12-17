@@ -7,6 +7,9 @@
 /* ====== Website ====== */
 
 function modifyHeader() {
+  /* Remove vertical border */
+  $('.topsearch').css({'border': 0, 'box-shadow': 'none'});
+  
   /* Hide gravatar icon */
   $('#userbox a img').hide();
   
