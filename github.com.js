@@ -13,11 +13,21 @@ function modifyHeader() {
     'box-shadow': 'none'
   });
   
-  /* Hide gravatar icon */
-  $('#userbox a img').hide();
+  /* Hide username */
+  $('#userbox .name').hide();
   
-  /* Replace profil link */
-  $('#userbox .name').text('Profil');
+  /* Move profil link with gravatar to user links container */
+  $('#user a:first-child img').attr({'height': 16, 'width': 16});
+  $('#user-links').prepend('<li />').children().first().append($('#user a:first-child')[0]);
+  
+  /* Minify account switcher and add it on userbox */
+  $('#header').css('position', 'static');
+  $('.account-switcher-container').css({
+    'position': 'absolute',
+    'top': '-63px',
+    'right': '165px',
+    'z-index': 1000
+  });
 }
 
 function modifyHeadings() {
