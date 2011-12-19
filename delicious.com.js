@@ -17,6 +17,15 @@ $('.tabsPage').css({
 $('#user_profile .sidebar').css('margin-top', '25px');
 
 
+/* Pagination */
+$('#pagination a').css({
+  'padding': '4px 4px 2px',
+  '-moz-border-radius': '3px',
+  '-webkit-border-radius': '3px',
+  'border-radius': '3px'
+});
+
+
 /* Footer */
 $('#main').css('padding-bottom', '20px');
 $('#footer').css({
