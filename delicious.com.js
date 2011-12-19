@@ -30,7 +30,7 @@ $('.tag').hover(
 
 /* Pagination */
 $('#pagination a').css({
-  'padding': '4px 4px 2px',
+  'padding': '4px 4px 1px',
   '-moz-border-radius': '3px',
   '-webkit-border-radius': '3px',
   'border-radius': '3px'
