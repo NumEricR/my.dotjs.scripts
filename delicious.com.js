@@ -13,3 +13,4 @@ $('.tabsPage').css({
   'min-width': '30px',
   'padding': '0 10px'
 });
+$('#user_profile .sidebar').css('margin-top', '25px');
