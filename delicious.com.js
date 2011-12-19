@@ -17,6 +17,17 @@ $('.tabsPage').css({
 $('#user_profile .sidebar').css('margin-top', '25px');
 
 
+/* Tags links */
+$('.tag').hover(
+  function() {
+    $(this).css('color', '#000');
+  },
+  function() {
+    $(this).css('color', '#939393');
+  }
+);
+
+
 /* Pagination */
 $('#pagination a').css({
   'padding': '4px 4px 2px',
