@@ -2,7 +2,7 @@
 
 You will find here some scripts I've created for my own needs. Feel free to use them if you need :)
 
-My scripts have been successfully tested on FF 5.0.1 / Mac OS.
+My scripts have been successfully tested on FF / Mac OS.
 
 
 ## About dotjs
