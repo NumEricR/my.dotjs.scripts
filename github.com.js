@@ -166,4 +166,7 @@ var url = $(location).attr('href');
 var domain = 'https://github.com';
 
 modifyWebsite();
-modifyBlog();
+
+if (url.match(domain + '/blog$')) {
+  modifyBlog();
+}
