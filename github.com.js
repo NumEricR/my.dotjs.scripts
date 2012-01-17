@@ -49,7 +49,7 @@ function modifyUserPage() {
   $('.page-profile.mine .pagehead-actions .text').hide();
 }
 
-function modifyLanguagesPage() {
+function modifyLanguagesHome() {
   /* Display languages list under popular one */
   $('#languages .left').css('width', 'auto').children().attr('width', '300');
   $('#languages .all_languages').remove().appendTo('#languages .popular');
@@ -128,10 +128,13 @@ function modifyWebsite() {
   modifyHeadings();
   modifyDashboard();
   modifyUserPage();
-  modifyLanguagesPage();
   modiySearchForm();
   modifyIssuesPage();
   modifyFooter();
+  
+  if (url.match(domain + '/languages$')) {
+    modifyLanguagesHome();
+  }
 }
 
 
@@ -149,6 +152,8 @@ function modifyBlog() {
 }
 
 
+var url = $(location).attr('href');
+var domain = 'https://github.com';
 
 modifyWebsite();
 modifyBlog();
