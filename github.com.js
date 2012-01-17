@@ -82,6 +82,13 @@ function modifyLanguagesHome() {
   $('#languages .site').prepend(recentlyCreated, recentlyUpdated);
 }
 
+function modifyLanguagesPages() {
+  $('#languages .container .left img').css({
+   'margin-right': '10px',
+   'vertical-align': 'middle'
+  });
+}
+
 function modiySearchForm() {
   $('#code_search_instructions, #code_search_instructions h2').css('margin-top', 0);
   $('#code_search .search').css('height', 'auto');
@@ -134,6 +141,9 @@ function modifyWebsite() {
   
   if (url.match(domain + '/languages$')) {
     modifyLanguagesHome();
+  }
+  else if (url.match(domain + '/languages/.*$')) {
+    modifyLanguagesPages();
   }
 }
 
