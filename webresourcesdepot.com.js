@@ -1,0 +1,1 @@
+$('.headerWrapRight').css('width', 'auto');
