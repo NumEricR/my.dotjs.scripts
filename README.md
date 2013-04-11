@@ -20,3 +20,8 @@ You can find more informations on [defunkt's dotjs repository](https://github.co
 - [Firefox Add-on](https://github.com/rlr/dotjs-addon)
 - [Safari Extension](https://github.com/wfarr/dotjs.safariextension)
 - [Fluid UserScript](https://github.com/sj26/dotjs-fluid)
+
+
+## License
+
+WTFPL - Do What The Fuck You Want To Public License
