@@ -2,32 +2,8 @@
 TODO_ERI.txt
 TODO.txt
 
-
-# ---- TextMate ----
-
 *.tmproj
-*.tmproject
-tmtags
-
-
-# ---- Mac OS X ----
+*.sublime-project
+*.sublime-workspace
 
 .DS_Store
-Icon?
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-
-# ---- Windows ----
-
-# Windows image file caches
-Thumbs.db
-
-# Folder config file
-Desktop.ini
-
