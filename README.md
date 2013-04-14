@@ -24,4 +24,4 @@ You can find more informations on [defunkt's dotjs repository](https://github.co
 
 ## License
 
-WTFPL - Do What The Fuck You Want To Public License
+[WTFPL - Do What The Fuck You Want To Public License](https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt)
