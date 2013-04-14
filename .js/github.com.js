@@ -41,7 +41,7 @@ function modifyLanguagesHome() {
     'border-left': '1px solid #ddd',
     'margin': '0 0 2em 3em',
     'padding': '0 0 1em 4em'
-  })
+  });
   $('#languages .site .left').css('width', '30em');
 
   /* Display "Recently created / updated" blocks on top */
