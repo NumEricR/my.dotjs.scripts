@@ -6,4 +6,7 @@
  * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
 
-$('head').append('<style>#divTabs ul li img.actions-tab-options {margin-left: 8px}</style');
+/* Add more space between tab name and options link */
+#divTabs ul li img.actions-tab-options {
+	margin-left: 8px;
+}
