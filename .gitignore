@@ -1,7 +1,8 @@
 # Ignore all ...
-*
+/*
 
 # Except:
-!.js/
+!/.css
+!/.js
 !License.txt
 !README.md
