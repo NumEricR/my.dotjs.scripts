@@ -1,8 +1,10 @@
 /*
- * Created by NumEricR - 16-08-2011
- * Successfully tested on FF 8 / Mac OS
+ * Created by NumEricR
+ * See: https://github.com/NumEricR/my.dotjs.scripts
+ *
+ * License: WTFPL - Do What The Fuck You Want To Public License
+ * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
-
 
 /* ====== Website ====== */
 
@@ -33,7 +35,7 @@ function modifyLanguagesHome() {
       'padding-left': 0
     })
     .parent().children().first().hide();
-  
+
   /* Increase width of list blocks on language pages */
   $('#languages .site .left:not(.row)').css({
     'border-left': '1px solid #ddd',
@@ -41,8 +43,8 @@ function modifyLanguagesHome() {
     'padding': '0 0 1em 4em'
   })
   $('#languages .site .left').css('width', '30em');
-  
-  /* Display "Recently created / updated" blocks on top */ 
+
+  /* Display "Recently created / updated" blocks on top */
   var recentlyCreated = $('#languages .site .left.row').last().remove();
   var recentlyUpdated = $('#languages .site .left').last().remove();
   $('#languages .site').prepend(recentlyCreated, recentlyUpdated);
@@ -58,7 +60,7 @@ function modifyLanguagesPages() {
 
 function modifyWebsite() {
   modifyHeadings();
-  
+
   if (url.match(domain + '/languages$')) {
     //modifyLanguagesHome();
   }

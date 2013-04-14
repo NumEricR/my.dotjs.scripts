@@ -1,6 +1,9 @@
 /*
- * Adapted by NumEricR - 15-08-2011
- * Successfully tested on FF 8 / Mac OS
+ * Created by NumEricR
+ * See: https://github.com/NumEricR/my.dotjs.scripts
+ *
+ * License: WTFPL - Do What The Fuck You Want To Public License
+ * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
 
 // Display comic's title below this image
