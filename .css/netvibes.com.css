@@ -10,3 +10,21 @@
 #divTabs ul li img.actions-tab-options {
 	margin-left: 8px;
 }
+
+/* Delete unused features and useless elements */
+#analyseLink,
+#switch-view,
+#userPages,
+#userPages + .separator,
+#userProfile .text,
+#userProfile .vip {
+	display: none !important;
+}
+
+/* Simplify Add content link */
+#addContentLink .text {
+	display: none;
+}
+#contentAnalyseContainer .left-drawer {
+	padding-right: 0;
+}
