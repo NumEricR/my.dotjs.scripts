@@ -1,9 +1,7 @@
-# Keep secret my own TODO lists :)
-TODO_ERI.txt
-TODO.txt
+# Ignore all ...
+*
 
-*.tmproj
-*.sublime-project
-*.sublime-workspace
-
-.DS_Store
+# Except:
+!.js/
+!License.txt
+!README.md
