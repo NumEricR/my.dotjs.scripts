@@ -20,6 +20,15 @@
 	height: 30px !important;
 }
 
+/* Change pager links */
+#page {
+	color: #999;
+	font-size: 13px;
+}
+#page a:nth-child(n+10) {
+	display: none;
+}
+
 /* Minimize space between content and footer */
 #main + div {
 	height: 30px !important;
