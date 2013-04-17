@@ -1,0 +1,39 @@
+/*
+ * Created by NumEricR
+ * See: https://github.com/NumEricR/my.dotjs.scripts
+ *
+ * License: WTFPL - Do What The Fuck You Want To Public License
+ * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
+ */
+
+/* Align search box on right gutter */
+#head_logo td + td + td {
+	display: none;
+}
+#head_logo td + td {
+	padding: 0 5px 5px 0;
+	text-align: right;
+}
+
+/* Minimize grey pattern on header */
+#head_line + div {
+	height: 30px !important;
+}
+
+/* Minimize space between content and footer */
+#main + div {
+	height: 30px !important;
+}
+
+/* Minimize grey pattern height above footer */
+#main + div + div {
+	height: 40px !important;
+}
+
+/* Minimize bottom space */
+#foot_main table + table {
+	padding-top: 20px !important;
+}
+#foot_main table + table tr + tr {
+	display: none;
+}
