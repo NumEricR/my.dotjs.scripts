@@ -20,10 +20,17 @@
 	height: 30px !important;
 }
 
+/* Change Prev & Next links */
+#news > div[align] {
+	width: 100% !important;
+	font-size: 22px !important;
+}
+
 /* Change pager links */
 #page {
 	color: #999;
 	font-size: 13px;
+	text-align: center;
 }
 #page a:nth-child(n+10) {
 	display: none;
