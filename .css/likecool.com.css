@@ -20,6 +20,14 @@
 	height: 30px !important;
 }
 
+/* Hide tags list */
+body > div > div[align] {
+	display: none;
+}
+#main {
+	margin-top: 10px;
+}
+
 /* Change Prev & Next links */
 #news > div[align] {
 	width: 100% !important;
