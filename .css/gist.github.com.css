@@ -14,3 +14,8 @@
 .button.glowing:hover {
 	color: #333;
 }
+
+/* Use same hover effect as on github.com footer */
+#footer .mega-icon-invertocat:hover {
+	color: #bbb;
+}
