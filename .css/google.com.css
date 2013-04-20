@@ -30,7 +30,11 @@
 	font-size: 15px !important;
 }
 
-/* Hide +Google link */
+/* Hide several footer links */
+#flls a,
 #flrs a[rel=publisher] {
 	display: none;
+}
+#flls a:last-child {
+	display: inline-block;
 }
