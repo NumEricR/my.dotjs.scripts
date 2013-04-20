@@ -1,0 +1,36 @@
+/*
+ * Created by NumEricR
+ * See: https://github.com/NumEricR/my.dotjs.scripts
+ *
+ * License: WTFPL - Do What The Fuck You Want To Public License
+ * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
+ */
+
+/* Hide some links on top dark bar */
+#gb_119, /* +Vous */
+#gb_78, /* Play */
+#gb_25, /* Drive */
+#gb_24, /* Agenda */
+#gbztm, /* Plus */
+#gbqfbb {
+	display: none;
+}
+
+/* Hide lucky button */
+#gbqfbb {
+	display: none;
+}
+
+/* Increase clickable area on search button */
+#gbqfba {
+	height: 42px;
+	padding: 6px 10px;
+}
+#gbqfba #gbqfsa {
+	font-size: 15px !important;
+}
+
+/* Hide +Google link */
+#flrs a[rel=publisher] {
+	display: none;
+}
