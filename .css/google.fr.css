@@ -6,6 +6,8 @@
  * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
 
+/* ###### HOME ######### */
+
 /* Hide some links on top dark bar */
 #gb_119, /* +Vous */
 #gb_78, /* Play */
@@ -35,6 +37,57 @@
 #flrs a[rel=publisher] {
 	display: none;
 }
-#flls a:last-child /* */ {
+#flls a:last-child /* link Confidentialité */ {
 	display: inline-block;
+}
+
+
+/* ###### RESULTS PAGE ######### */
+
+/* Decrease form height */
+#gb.gbesi {
+	height: 90px;
+}
+#gb.gbesi #gbu,
+#gb.gbesi #gbq2,
+#gb.gbesi #gbq3 {
+	padding-top: 15px;
+}
+#gb.gbesi #gbx1,
+#gb.gbesi #gbx2,
+#gb.gbesi #gbqlw {
+	height: 58px;
+}
+
+/* Hide shopping link */
+#hdtb_msb div:nth-child(4) {
+	display: none;
+}
+
+/* Always display search tools */
+#hdtbMenus.hdtb-td-o {
+	position: relative;
+	top: 0;
+	padding: 5px 0 0;
+}
+.hdtb-ab-o #resultStats {
+	opacity: 1;
+	top: 0;
+}
+/* Hide search tools button */
+#hdtb_tls {
+	display: none;
+}
+
+
+/* Hide some footer links */
+#fblsh, /* Aide sur la recherche */
+#fblqf, /* Envoyer des commentaires */
+#fll /* last displayed block */ {
+	display: none;
+}
+
+/* Add margin after last displayed content */
+#bfoot {
+	margin-bottom: 20px;
 }
