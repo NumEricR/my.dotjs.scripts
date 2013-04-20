@@ -26,3 +26,21 @@
 #gt-feedback {
 	display: none;
 }
+
+/* Decrease top grey block's height */
+#gb.gbemi {
+	height: 80px;
+}
+#gb.gbemi #gbx1,
+#gb.gbemi #gbx2,
+#gb.gbemi #gbqlw {
+	height: 52px;
+}
+#gb.gbemi #gbu,
+#gb.gbemi #gbq2,
+#gb.gbemi #gbq3 {
+	padding-top: 12px;
+}
+#gt-form-c {
+	margin-top: 10px;
+}
