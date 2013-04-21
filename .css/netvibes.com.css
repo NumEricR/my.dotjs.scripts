@@ -28,3 +28,8 @@
 #contentAnalyseContainer .left-drawer {
 	padding-right: 0;
 }
+
+/* Higlight unread counters */
+#divTabs .unread {
+	color: lawngreen;
+}
