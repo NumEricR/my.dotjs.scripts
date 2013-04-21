@@ -12,37 +12,37 @@ body {
 }
 
 /* Remove iOS app reminder */
-body > table:nth-of-type(3),
-body > table:nth-of-type(3) + br,
+body.not-wimp-home > table:nth-of-type(3),
+body.not-wimp-home > table:nth-of-type(3) + br,
 /* Remove footer */
-body > table:last-of-type {
+body.not-wimp-home > table:last-of-type {
 	display: none;
 }
 
 /* Display search box next to title block */
-body > table:first-of-type {
+body.not-wimp-home > table:first-of-type {
 	float: left;
 	width: 46%;
 	margin-left: 38px;
 }
-body > table:first-of-type + br {
+body.not-wimp-home > table:first-of-type + br {
 	display: none;
 }
-body > table:nth-of-type(2) {
+body.not-wimp-home > table:nth-of-type(2) {
 	height: 63px;
     width: 46%;
 	margin-right: 38px;
 }
-body > table:nth-of-type(2) + br {
+body.not-wimp-home > table:nth-of-type(2) + br {
 	clear: both;
 }
 
 /* Add padding above video title */
-body > table:nth-of-type(4) {
+body.not-wimp-home > table:nth-of-type(4) {
 	padding-top: 20px;
 }
 
 /* Customize video title */
-body > table:nth-of-type(4) table td[colspan='3'][style] {
+body.not-wimp-home > table:nth-of-type(4) table td[colspan='3'][style] {
 	font-size: 16px;
 }
