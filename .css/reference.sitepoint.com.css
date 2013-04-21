@@ -1,0 +1,33 @@
+/*
+ * Created by NumEricR
+ * See: https://github.com/NumEricR/my.dotjs.scripts
+ *
+ * License: WTFPL - Do What The Fuck You Want To Public License
+ * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
+ */
+
+/* Remove horizontal scroll bar */
+body {
+	overflow-x: hidden;
+}
+
+/* Align logo on left */
+#header h1 {
+	margin-left: 0;
+}
+.custom #logo a {
+	left: 0;
+}
+
+/* Hide some menu links */
+#thesis_nav_wrap li:nth-child(4), /* Marketplace */
+#thesis_nav_wrap li:nth-child(5), /* Bookstore */
+#thesis_nav_wrap li:nth-child(6) /* Courses */ {
+	display: none;
+}
+
+/* Decrease menu width */
+.custom #thesis_nav_wrap {
+	margin: auto;
+	width: 1110px;
+}
