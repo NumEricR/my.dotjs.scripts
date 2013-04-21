@@ -11,7 +11,7 @@
 	display: none;
 }
 #head_logo td + td {
-	padding: 0 5px 5px 0;
+	padding: 0 6px 5px !important;
 	text-align: right;
 }
 
