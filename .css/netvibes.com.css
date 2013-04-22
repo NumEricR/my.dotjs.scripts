@@ -30,6 +30,7 @@
 }
 
 /* Higlight unread counters */
-#divTabs .unread {
+#divTabs .unread,
+.moduleHeader .title .unread {
 	color: lawngreen;
 }
