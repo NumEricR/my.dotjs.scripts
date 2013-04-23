@@ -6,6 +6,14 @@
  * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
 
+/* Remove position fixed on navbar */
+body {
+	padding-top: 0;
+}
+.navbar-fixed-top {
+	position: relative;
+}
+
 /* Hide header and remove space before articles */
 body > header {
 	display: none;
