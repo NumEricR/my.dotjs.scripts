@@ -72,3 +72,19 @@ body.not-wimp-home > table:nth-of-type(4) {
 body.not-wimp-home > table:nth-of-type(4) table td[colspan='3'][style] {
 	font-size: 16px;
 }
+
+/* Reduce space between video title and navigation links */
+body.not-wimp-home > table:nth-of-type(4) table[width='560'] tr:first-child + tr td[align='center'] {
+	padding-top: 0 !important;
+}
+
+/* Change color on Prev, Next & random links */
+body.not-wimp-home > table:nth-of-type(4) table[width='560'] tr:first-child + tr a {
+	color: #666;
+	font-size: 1em !important;
+	font-weight: normal;
+	text-decoration: none;
+}
+body.not-wimp-home > table:nth-of-type(4) table[width='560'] tr:first-child + tr a:hover {
+	text-decoration: underline;
+}
