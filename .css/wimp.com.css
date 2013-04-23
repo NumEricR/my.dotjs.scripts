@@ -8,7 +8,10 @@
 
 /* Decrease global page spacing */
 body {
-	margin: 0;
+	margin: 10px 0 0;
+}
+body > br:first-of-type {
+	display: none;
 }
 
 
@@ -62,7 +65,7 @@ body.not-wimp-home > table:nth-of-type(2) + br {
 
 /* Add padding above video title */
 body.not-wimp-home > table:nth-of-type(4) {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 /* Customize video title */
