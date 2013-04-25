@@ -88,3 +88,9 @@ body.not-wimp-home > table:nth-of-type(4) table[width='560'] tr:first-child + tr
 body.not-wimp-home > table:nth-of-type(4) table[width='560'] tr:first-child + tr a:hover {
 	text-decoration: underline;
 }
+
+/* Hide Facebook links */
+body.not-wimp-home .post-to-wall,
+table table td[style][align='left'] {
+	display: none;
+}
