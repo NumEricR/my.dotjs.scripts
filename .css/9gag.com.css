@@ -14,3 +14,97 @@
 .feedback-button {
 	display: none;
 }
+
+/* Change colors to use a dark theme */
+/* =========== ========= =========== */
+body {
+	background-color: #333;
+}
+a,
+#view-info .keyboard_link {
+	color: mediumblue;
+}
+a:hover,
+#view-info .keyboard_link:hover {
+	color: darkslateblue;
+}
+/* Hide that seems to be a useless string */
+.green-pea {
+	left: -1000px !important;
+}
+#entry-list,
+#entry-list.list ul.col-1 li .content .fatbigdick,
+.list-tips,
+#pagination {
+	background-color: #999;
+}
+#entry-list.list ul .info h5,
+#entry-list.list ul .info p {
+	color: #000;
+}
+#entry-list.list ul.col-1 li {
+	border-bottom-color: #000;
+}
+
+#view-info {
+	border-bottom-color: #000;
+}
+.list-tips {
+	text-shadow: none;
+}
+
+/* Actions box */
+#entry-list.list ul .info ul.actions,
+.sharing-box ul.sharing {
+	background-color: #ccc;
+	box-shadow: none;
+}
+#entry-list.list ul .info ul.actions li a:hover {
+	background-color: #bbb;
+}
+
+/* Pagination box */
+#pagination {
+	border-top-color: #000;
+	box-shadow: none;
+}
+#pagination a {
+	background-color: navy;
+	box-shadow: none;
+}
+
+/* Social block */
+.side-dock .message-block,
+.side-dock .feature-people,
+.side-dock .social-block,
+.side-dock .tags-block {
+	background-color: #999;
+	box-shadow: none;
+	text-shadow: none;
+}
+.side-dock .social-block .twitter-follow,
+.side-dock .social-block .weibo-follow,
+.side-dock .social-block .google-plus,
+.side-dock .social-block .other-social {
+	border-top-color: #000;
+    box-shadow: none;
+}
+
+/* Side footer */
+.side-foot .wrap {
+	text-shadow: none;
+}
+.side-foot .fade {
+	background: none;
+}
+.side-foot .text {
+	background: transparent;
+}
+.side-foot ul.info.footer-left li,
+.side-foot ul.info.footer-right li a {
+	color: #ccc;
+}
+.side-foot ul.info.footer-left li a {
+	color: #24BBFF;
+}
+/* =========== ========= =========== */
