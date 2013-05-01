@@ -7,6 +7,10 @@
  */
 
 /* Hide Facebook button "Add tot Timeline" */
-#special-button {
+#special-button,
+/* Hide mobile app links */
+#headbar-android-app-no-toggle,
+/* Hide feedback button */
+.feedback-button {
 	display: none;
 }
