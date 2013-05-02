@@ -23,6 +23,12 @@ body {
 	padding-top: 0;
 }
 
+/* Don't change position of actions bar while scrolling a post */
+#post-control-bar {
+	position: absolute !important;
+	top: 90px !important;
+}
+
 /* Change colors to use a dark theme */
 /* =========== ========= =========== */
 body {
