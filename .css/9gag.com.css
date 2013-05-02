@@ -135,4 +135,13 @@ a:hover,
 .side-foot ul.info.footer-left li a {
 	color: #24BBFF;
 }
+
+/* Footer */
+#footer .section-2 {
+	text-shadow: none;
+}
+.side-foot ul.info.footer-right li a,
+#footer .section-2 ul.info li a {
+	border-bottom: 0;
+}
 /* =========== ========= =========== */
