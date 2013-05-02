@@ -29,6 +29,11 @@ body {
 	top: 90px !important;
 }
 
+/* Remove animation on signup button */
+.main-2-menu a.signup-button.green {
+	animation: none;
+}
+
 /* Change colors to use a dark theme */
 /* =========== ========= =========== */
 body {
