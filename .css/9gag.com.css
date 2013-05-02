@@ -104,6 +104,20 @@ a:hover,
     box-shadow: none;
 }
 
+/* Popular posts & Recommanded lists */
+.side-dock .popular-block,
+.side-dock .popular-block h3 {
+	color: #ddd;
+	text-shadow: none;
+}
+.side-dock .popular-block h3 a,
+.side-dock .popular-block h3 a:hover {
+	color: #24BBFF;
+}
+.side-dock .popular-block h4 {
+	color: #ccc;
+}
+
 /* Side footer */
 .side-foot .wrap {
 	text-shadow: none;
