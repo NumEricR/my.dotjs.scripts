@@ -15,6 +15,14 @@
 	display: none;
 }
 
+/* Don't use a fixed header */
+#headbar-wrap.fixed {
+	position: static;
+}
+body {
+	padding-top: 0;
+}
+
 /* Change colors to use a dark theme */
 /* =========== ========= =========== */
 body {
