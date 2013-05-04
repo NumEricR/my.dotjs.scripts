@@ -25,3 +25,18 @@
 #paginationBar .extend {
 	display: none;
 }
+
+/* Minimize height of the related posts list */
+/* Hide images */
+.postContent h3 + p {
+	display: none;
+}
+
+.post h3 {
+	margin-top: 15px;
+	font-size: 20px;
+}
+.post h3 a:before {
+	content: "\2732 \0020";
+}
+/* ------ */
