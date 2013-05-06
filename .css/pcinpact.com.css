@@ -6,6 +6,11 @@
  * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
 
+/* Hide horizontal scroll */
+body {
+	overflow-x: hidden;
+}
+
 /* Remove fixed position on top bar */
 #socialbar {
 	position: relative !important;
