@@ -44,3 +44,12 @@ form#order-shirts {
 	display: block;
 	font-style: italic;
 }
+
+
+/* To avoid some vendors ... */
+.vendor-fivefinger, /* No ship to Europe */
+.vendor-wearviral,
+.vendor-popuptee,
+.vendor-ript 		/* Paypal only for european */ {
+	opacity: 0.35;
+}
