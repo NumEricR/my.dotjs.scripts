@@ -6,6 +6,11 @@
  * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
 
+/* Hide empty container above logo */
+#head_top {
+	display: none;
+}
+
 /* Align search box on right gutter */
 #head_logo td + td + td {
 	display: none;
