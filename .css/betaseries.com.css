@@ -6,9 +6,21 @@
  * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
 
-/* Hide link to Google+ */
+/* Hide updates block */
+.footer .part.first .right + h3,
+.footer .part.first .right + h3 + ul,
+/* Show only 4 blog entries */
+.footer .part.first + .part p:nth-child(n+6),
+/* Hide BS sur le Web */
+.footer .part.first + .part p + h3,
 .footer .gplus-button,
+.footer .twitter-follow-button,
 /* Hide footer links to apps */
 .footer > .wrapper {
 	display: none;
+}
+
+/* Update height of footer columns */
+.footer #upper .part {
+	min-height: inherit;
 }
