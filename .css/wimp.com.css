@@ -48,7 +48,7 @@ body.not-wimp-home > table:last-of-type {
 /* Display search box next to title block */
 body.not-wimp-home > table:first-of-type {
 	float: left;
-	width: 46%;
+	width: 46% !important;
 	margin-left: 38px;
 }
 body.not-wimp-home > table:first-of-type + br {
@@ -56,7 +56,7 @@ body.not-wimp-home > table:first-of-type + br {
 }
 body.not-wimp-home > table:nth-of-type(2) {
 	height: 63px;
-    width: 46%;
+    width: 46% !important;
 	margin-right: 38px;
 }
 body.not-wimp-home > table:nth-of-type(2) + br {
