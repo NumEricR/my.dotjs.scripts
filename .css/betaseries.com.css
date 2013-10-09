@@ -24,3 +24,8 @@
 .footer #upper .part {
 	min-height: inherit;
 }
+
+/* Change color on relative date strings (last actions page) */
+.timeline .item .details .intellidate {
+	color: #bbb;
+}
