@@ -47,7 +47,9 @@ body.wimp-home {
 body.not-wimp-home > table:nth-of-type(3) td[rowspan='2'],
 body.not-wimp-home > table:nth-of-type(3) + br,
 /* Remove footer */
-body.not-wimp-home > table:last-of-type {
+body.not-wimp-home > table:last-of-type,
+/* Remove socials buttons and "Learn more" link */
+body.not-wimp-home > table:nth-of-type(3) tr + tr table[width='100%'] > tbody > tr + tr {
 	display: none;
 }
 
