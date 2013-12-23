@@ -1,0 +1,12 @@
+#single .top_infos {
+	font-size: 12px;
+}
+
+#single .the_content {
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+#single .the_content p {
+	margin: 10px 0 10px;
+}
