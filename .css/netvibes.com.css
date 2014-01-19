@@ -12,25 +12,33 @@
 }
 
 /* Delete unused features and useless elements */
+#addContentLink .text,
 #analyseLink,
 #switch-view,
 #userPages,
 #userPages + .separator,
+#userProfile img,
 #userProfile .text,
-#userProfile .vip {
+#userProfile .vip,
+#topLinks,
+#footer-toggle .poweredby {
 	display: none !important;
 }
 
-/* Simplify Add content link */
-#addContentLink .text {
-	display: none;
-}
 #contentAnalyseContainer .left-drawer {
 	padding-right: 0;
+}
+
+#divTabs {
+	margin-top: 10px;
 }
 
 /* Higlight unread counters */
 #divTabs .unread,
 .moduleHeader .title .unread {
 	color: lawngreen;
+}
+
+#footer-toggle {
+	padding-left: 5px;
 }
