@@ -6,31 +6,25 @@
  * https://github.com/NumEricR/my.dotjs.scripts/blob/master/License.txt
  */
 
-/* Hide empty container above logo */
-#head_top {
+/* Hide useless things */
+#head_top,
+#center > div:first-child,
+#center1,
+#right {
 	display: none;
 }
 
-/* Align search box on right gutter */
-#head_logo td + td + td {
-	display: none;
-}
-#head_logo td + td {
-	padding: 0 6px 5px !important;
-	text-align: right;
-}
-
-/* Minimize grey pattern on header */
-#head_line + div {
-	height: 30px !important;
-}
-
-/* Hide tags list */
-body > div > div[align] {
-	display: none;
+/* Remove horizontal scrollbar */
+body {
+	min-width: 100%;
 }
 #main {
-	margin-top: 10px;
+	width: 100%;
+}
+
+/* Change main content position */
+#center {
+	float: none;
 }
 
 /* Change Prev & Next links */
